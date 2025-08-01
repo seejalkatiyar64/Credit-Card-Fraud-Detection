@@ -8,28 +8,29 @@ Ensuring high recall to detect as many fraud cases as possible.
 Dataset
 Source:/content/sample_data/creditcard.csv
 
-Technologies Used
-Language: Python 3.8+
-platform: Google Colab
+Technologies Used:
+
+Language: Python 3.8+,
+platform: Google Colab,
 Libraries:
-pandas, numpy (data handling)
-matplotlib, seaborn (visualization)
+pandas, numpy (data handling),
+matplotlib, seaborn (visualization),
 scikit-learn, xgboost, imbalanced-learn (ML models & handling imbalance)
 
 Modeling:
-Logistic Regression
-Random Forest
-Support Vector Machine (SVM)
+Logistic Regression,
+Random Forest,
+Support Vector Machine (SVM),
 Used GridSearchCV for hyperparameter tuning
 
-Evaluation Metrics
+Evaluation Metrics:
 Confusion Matrix,
 Precision, Recall, F1-Score
 
 Achieved:
-Accuracy: 0.9994
-Precision: 1.0000
-Recall: 0.7692
-F1-Score: 0.8696
+Accuracy: 0.9894,
+Precision: 1.0000,
+Recall: 0.7692,
+F1-Score: 0.8696,
 
 
