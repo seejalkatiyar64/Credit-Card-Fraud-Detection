@@ -1,4 +1,5 @@
 This project focuses on detecting fraudulent credit card transactions using various machine learning algorithms. Given the highly imbalanced nature of fraud detection datasets, special attention is paid to preprocessing and evaluation metrics to ensure that the model performs well on rare fraud cases.
+
 Challenges include:
 Handling imbalanced datasets where fraud cases are a small fraction of total transactions.
 Ensuring high precision to minimize false positives (flagging a valid transaction as fraud).
@@ -22,7 +23,7 @@ Support Vector Machine (SVM)
 Used GridSearchCV for hyperparameter tuning
 
 Evaluation Metrics
-Confusion Matrix
+Confusion Matrix,
 Precision, Recall, F1-Score
 
 Achieved:
